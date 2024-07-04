@@ -32,7 +32,9 @@ import { ViewFavoritasComponent } from './pages/noticiasFavoritas/view-favoritas
 import { ViewNuevasComponent } from './pages/noticiasNuevas/view-nuevas/view-nuevas.component';
 import {MatPaginator, MatPaginatorModule} from "@angular/material/paginator";
 import {MatTabsModule} from "@angular/material/tabs";
-import { ViewComponent } from './pages/reservas/view/view.component';
+import { LoginComponent } from './pages/login/login.component';
+import { ViewReservasComponent } from './pages/reservas/view-reservas/view-reservas.component';
+import { FormReservasComponent } from './pages/reservas/form-reservas/form-reservas.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { ViewComponent } from './pages/reservas/view/view.component';
     NavbarComponent,
     ViewFavoritasComponent,
     ViewNuevasComponent,
-    ViewComponent
+    LoginComponent,
+    ViewReservasComponent,
+    FormReservasComponent
   ],
     imports: [
         BrowserModule,
